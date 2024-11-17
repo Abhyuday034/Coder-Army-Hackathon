@@ -8,22 +8,25 @@ header{
     position: sticky;
     top: 0px;
     z-index: 1;
+   
 }
  
 .head{height: 84px;
     width: 100vw;
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
     background-color: lightblue;
 }
 
 .head-on{
-    width: 80vw;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
-    gap: 10rem;
+    gap: 5rem;
+    width: 80vw;
+    margin: auto;
+    
     
 }
 
@@ -32,6 +35,8 @@ header{
     justify-content: center;
     align-items: center;
     gap: 3rem;
+   
+    
 }
 
 .navbar{
@@ -88,6 +93,7 @@ header{
     justify-content:center;
     align-items: center;
     gap: 15px;
+    
 }
 
 .btn1{
