@@ -1,0 +1,788 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* css for header section starts */
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+ 
+.head{height: 84px;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.head-on{
+    width: 80vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10rem;
+    
+}
+
+.head-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 3.5rem;
+    font-size: 1.2rem;
+}
+
+.head-box{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold; 
+    color:black;
+    text-decoration: none;
+}
+.head-box:hover{
+    cursor: pointer;
+}
+
+.head-box-know{
+    width: 161.66px;
+
+}
+
+.free{
+    background-color:red;
+    transform: translateY(-15px);
+    padding: 3px 6px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.logo{
+    height: 42px;
+    background-color: rgb(0, 0, 0);
+
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.head-right{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn1{
+    width: 110px;
+    max-height: 38px;
+}
+
+.btn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.btn:hover{
+    background-color: lightblue;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    cursor: pointer;
+
+}
+
+/* css for header section ends */
+
+/* css for gyan section starts  */
+
+.gyan{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2rem;
+}
+
+.sup-text {
+    width: 80vw;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+}
+
+.sut{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sut1{
+    height: 110px;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    color: rgb(0, 0, 0);
+
+}
+.up{
+    height: 100px;
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slideUp 6s infinite;
+    font-size:5rem;
+    position: absolute;
+    top:0px;
+    opacity: 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+ 
+}
+
+.sut2-p2{
+    height:108.8px ;
+    font-size: 3.2rem;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem;
+    color: #ffffff;
+    border-radius: 2rem;
+    background-color: rgb(0, 0, 0);
+   
+}
+
+.sut2-p2:hover{
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+
+
+.ab-img {
+    height:300px;
+    float: right;
+    border-radius: 25px;
+    z-index: -1;
+}
+
+.up:nth-child(1) {
+    animation-delay: 0s;
+}
+.up:nth-child(2) {
+    animation-delay: 2s;
+}
+.up:nth-child(3) {
+    animation-delay: 4s;
+}
+.up:nth-child(1) {
+    animation-delay: 0s;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 1;
+    }
+    30%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    40% {
+        transform: translateY(-100%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+/* css for gyan section ends */
+
+/* css for course section starts  */
+
+.course{
+      height: 500px;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: lightblue;
+      margin-top: 2.5rem;
+
+}
+
+.course-box{
+    width: 80vw;;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+.cb1-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+.cb2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cb2-c1{height: 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    background-color: #edf2fa;
+    border-radius: 25px;
+}
+
+.cb2-c1-h2{
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align:center ;
+    align-items: center;
+}
+.cb2-c1-h3{
+    font-family:'Poppins', sans-serif;
+    font-weight:lighter;
+    font-size: .8rem;
+    text-align:center ;
+    padding: 5px;
+}
+
+
+.cb3-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border-style: none;
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    /* background-color:rgba(33, 150, 243, 1); */
+    background-color: black;
+    text-decoration: none;
+
+}
+.cb3-title:hover{
+    cursor: pointer;
+}
+
+/* css for course section ends */
+
+/* css for yt section starts  */
+
+.yt{
+    height:600px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    
+  }
+
+  .video-container {
+    width: 80vw;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 3rem;
+    /* border: 2px solid #007BFF; */
+    position: relative;
+    
+  }
+
+  .video{
+    display: flex;
+    width: calc(100% * 6);
+    animation: slide 24s linear infinite;
+    animation-direction: alternate-reverse;
+    gap: 5rem;
+    border-radius: 5rem;
+  }
+
+  .vid .yt1 {
+    /* width: calc(80vw); */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 3rem;
+}
+.yt{
+    width: auto;
+}
+
+.yt-message{
+    color: black;
+    display: flex;
+    justify-content: centre;
+    align-items: end;
+    flex-direction: column;
+    font-size: 5rem;
+    z-index: 1;
+}
+
+/* .vid:nth-child(1) { background-color: #ff6f61; }
+.vid:nth-child(2) { background-color: #6ab04c; }
+.vid:nth-child(3) { background-color: #45aaf2; }
+.vid:nth-child(4) { background-color: #f7b731; }
+.vid:nth-child(5) { background-color: #a55eea; }
+.vid:nth-child(6) { background-color: #e056fd; } */
+
+@media (max-width: 768px) {
+    .container {
+        width: 95vw;
+    }
+    .box {
+        width: calc(95vw / 2);
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        font-size: 18px;
+        width: calc(100vw / 2);
+    }
+}
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-50%);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+        transform: translateX(+50%);
+      }
+    100% {
+        transform: translateX(0);
+      }
+  }
+
+/* css for yt section ends  */
+
+/* css for process section starts here  */
+.process{
+    height: 1900px;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      background-color: lightblue;
+      margin-top: 0px;
+      position: relative;
+
+}
+
+.complete-process{
+    width: 80vw;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    position: absolute;
+    padding: 5rem;
+}
+
+.process-heading{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-family:'Poppins', sans-serif;
+    font-weight:bold;
+    font-size: 3rem;
+    width: 80vw;
+    border:solid black;
+    border-radius: 3.5rem;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+
+}
+.process-rest{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.pss{
+    width: 80vw;
+    height: 200px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 2rem;
+    background-color: #edf2fa;
+    border-radius: 4rem;
+    padding: 2rem;
+    overflow: hidden;
+
+}
+
+.pss-para{
+    /* width:50% ; */
+    background-color: rgba(0, 0, 0, 0.474);
+    color: #edf2fa;
+    font-family:'Poppins', sans-serif;
+    font-weight:bold;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 1.5rem;
+    padding:1.5rem;
+
+}
+
+.pss-img{
+    height: 206.4px;
+    border: none;
+    border-radius: 3rem;
+}
+
+.pss1, .pss3, .pss5 {
+    flex-direction: row;
+}
+
+.pss2, .pss4 {
+    flex-direction: row-reverse;
+}
+
+/* css for process section ends here  */
+
+/* css for footer section starts here  */
+.contact-us{
+    height: 700px;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      background-color: rgb(255, 255, 255);
+      margin-top: 2rem;
+      position: relative;
+      text-decoration: none;
+      color:red;
+      text-decoration: none;
+
+}
+
+
+.cus{
+    width: 80vw;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 4rem;
+    position: absolute;
+    top: 0;
+    padding: 5rem;
+}
+
+.cus1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.cus1-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    padding: .5rem;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+
+}
+.cus1-img{
+    height: 400px;
+}
+
+/* css for form starts here   */
+.cus2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* margin: 0; */
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    background-color:transparent;
+    border-radius: 1rem;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40vw;
+    gap:2rem;
+    padding: 2rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: solid lightblue;
+
+}
+
+.form-container input, .form-container textarea{
+    width: 100%;
+    padding:.5rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    border:dashed black .2px;
+}
+.cus-submit{
+    font-size: 2.5rem;
+    padding: .1rem;
+    width:120px;
+    border-radius: 1rem;
+    border: none;
+
+}
+.cus-submit:hover{
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+/* css for form ends here   */
+
+/* css for reminder section starts */
+
+.reminder{
+    height: 200px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    margin: auto;
+    position: relative;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    gap:2rem;
+    margin-bottom: 8rem;
+}
+
+.rem-text{
+    position: absolute;
+    left: 0px;
+    font-size: 3.2rem;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    padding-left: 50px;
+    font-family:'Poppins', sans-serif;
+}
+
+.trophy-img{
+    height:280px;
+    float: right;
+    position:absolute;
+    right: 20px;
+    top: 5px;
+}
+
+/* css for reminder section ends */
+
+/* css for footer section starts here  */
+
+.foot{
+    height: 150px;
+    width: 100vw;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color:lightblue;
+}
+
+.foot-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+    width: 80vw;
+    margin-top: 1.5rem;
+
+}
+
+.logo1{
+    height: 3.5rem;
+}
+
+.fo2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    gap: 1rem;
+
+}
+
+.heart{
+    height:3rem;
+}
+
+.foot-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+    width: 80vw;
+}
+
+.ft1{
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Poppins', sans-serif;
+        font-weight: bold;
+}
+
+ft2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0rem;
+
+}
+
+footer {
+    position: relative;
+    height: 100px;
+
+}
+
+.social-icons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #0077b5; /* Change to your preferred hover color */
+}
+
+.social-icon.youtube:hover {
+    color: #ff0000; /* YouTube red */
+}
+
+.social-icon.linkedin:hover {
+    color: #0077b5; /* LinkedIn blue */
+}
+
+.social-icon.instagram:hover {
+    color: #e4405f; /* Instagram pink */
+}
+
+
+/* for bottom to top scrolling */
+
+a.scroll-to-header {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+a.scroll-to-header:hover {
+    background-color: #555;
+}
+
+html{scroll-behavior: smooth;}
+
+/* css for footer section ends here  */
